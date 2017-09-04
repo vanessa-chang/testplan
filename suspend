@@ -1,0 +1,9 @@
+id: C54
+category_id: suspend/functions
+_description: 
+ PURPOSE: 
+     CPU is the correct type, model and frequency
+ STEPS:
+     1. With the test device running put the machine in suspend mode
+     2. Ensure audio, video, networking, Bluetooth and devices on USB ports are working after resume
+ EXPECTED RESULT:
