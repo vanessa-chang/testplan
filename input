@@ -1,0 +1,51 @@
+id: C28
+category_id: input/function_keys
+_description: 
+ PURPOSE: 
+     Function keys functionality
+ STEPS:
+     1. Super key brings the Endless OS desktop overview
+     2. Brightness key must be able to change the screen brightness level
+     3. Volume must be able to adjust the Endless OS system volume
+     4. Volume mute is able to completely zero the Endless OS system volume
+     5. Microphone mute completely zero the Endless OS microphone level
+     6. Media Control keys are able to interact properly with the Endless OS audio and video player
+     7. Wireless key must be able to completely turn the wifi and bluetooth built-in module on and off
+     8. Suspend key needs to trigger the Endless OS suspend mode
+     9. Touchpad lock key are able to disable and re-enable touchpad function
+     10. Monitor switch key must alternate between different monitor options
+     11. Battery key brings the Endless OS battery info pop up
+ 
+id: C29
+category_id: input/trackpoint_mouse
+_description: 
+ PURPOSE: 
+     Trackpoint/mouse functionality
+ STEPS:
+     1. From the desktop navigate to settings
+     2. From settings click on mouse
+     3. Click on "Test Your Settings"
+     4. Verify you can complete all the tests (single, double-click, scroll)
+ EXPECTED RESULT:
+     All tests should function normally
+     
+id: C30
+category_id: input/touchpad
+_description: 
+ PURPOSE: 
+     Touchpad functionality
+ STEPS:
+     1. From the desktop navigate to settings
+     2. From settings click on mouse
+     3. Click on "Test Your Settings"
+     4. Verify you can complete all the tests (single, double-click, scroll)
+
+id: C31
+category_id: input/lid
+_description: 
+ PURPOSE: 
+     Laptop lid sensor
+ STEPS:
+     1. Triggering the laptop lid sensor puts the system in the state specificed by EOS
+     
+     
