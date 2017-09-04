@@ -1,0 +1,11 @@
+id: C17
+category_id: ram/info
+_description: 
+ PURPOSE: 
+     Check that the amount of RAM installed is correct
+ STEPS:
+     1. From the desktop navigate to settings
+     2. Click on details
+ EXPECTED RESULT:
+     Ensure that the amount of RAM installed is correct compared to the spec sheet for that device.
+    
