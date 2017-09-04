@@ -1,0 +1,9 @@
+id: C53
+category_id: power/powerloss
+_description: 
+ PURPOSE: 
+     The machine boots after holding down the power button to shut it off
+ STEPS:
+     1. With the test device booted, hold down the power button until it turns off
+     2. Ensure the test device boots without issue
+ EXPECTED RESULT:
