@@ -1,0 +1,72 @@
+id: C47
+category_id: graphics/display
+_description: 
+ PURPOSE: 
+     Integrated display works
+ STEPS:
+     1. On devices with internal displays make sure EOS shows up at the displays native resolution
+ EXPECTED RESULT:
+     The processor should be the same model as the specs stated by the manufacture for that specific model.
+
+id: C48
+category_id: graphics/output
+_description: 
+ PURPOSE: 
+     Output via S-Video, VGA, DVI, DisplayPort works at the monitors native resolution
+ STEPS:
+     1. Find a monitor that supports most of these video cable types
+     2. Plug in any cable protocol that the test device supports
+ EXPECTED RESULT:
+ 
+id: C49
+category_id: graphics/hotplug
+_description: 
+ PURPOSE: 
+     Video output is supports hotplugging
+ STEPS:
+     1. Plug in a monito
+     2. The monitor should now detect the test device and output video
+     3. Unplug the monitor
+     4. The test device should now go back to having only 1 display
+ EXPECTED RESULT:
+ 
+id: C50
+category_id: graphics/rotation
+_description: 
+ PURPOSE: 
+     Display rotation works
+ STEPS:
+     1. From the desktop click on navigate to settings
+     2. Click on displays
+     3. Click on the external display
+     4. Click on the left and right arrows to rotate the picture on the external display
+ EXPECTED RESULT:
+
+id: C51
+category_id: graphics/HDcontent_streaming
+_preconditions:
+     1. An internet connection
+_description: 
+ PURPOSE: 
+     High definition videos are smoothly streamed
+ STEPS:
+     1. Find a YouTube video that is at least 720p
+     2. Set the video to 720p
+     3. Right click on the video area
+     4. Select "Stats for nerds"
+     5. The total dropped frames should be 0, or not climbing
+ EXPECTED RESULT:
+     Depending on the hardware, HD video streaming should be smooth and without frame losses.
+
+id: C52
+category_id: graphics/hw_acceleration_status
+_description: 
+ PURPOSE: 
+     Basic GPU hardware acceleration is supported
+ STEPS:
+     1. Open the browser
+     2. Type chrome://gpu/ into the URL field
+     3. Hit enter
+     4. You should see video encode and video decode status as "Software only, hardware acceleration unavailable" next to them
+ EXPECTED RESULT:
+     
