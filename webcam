@@ -1,0 +1,37 @@
+id: C32
+category_id: webcam/info
+_description: 
+ PURPOSE: 
+     A built in webcam works and matches specs provided
+ STEPS:
+     1. From the desktop type "Cheese" into the search bar
+     2. Launch Cheese.
+ EXPECTED RESULT:
+
+id: C33
+category_id: webcam/photo
+_description: 
+ PURPOSE: 
+     The device can take a photo
+ STEPS:
+     1. Launch Cheese
+     2. Tap Take a Photo button to capture a photo
+ EXPECTED RESULT:
+
+id: C34
+category_id: webcam/video
+_description: 
+ PURPOSE: 
+     The device can record a video
+ STEPS:
+     1. Launch Cheese
+     2. Switch to Video recording mode
+     3. Tap Recording button to recording video
+ EXPECTED RESULT:
+
+id: C432
+category_id: webcam/resolution
+_description: 
+ PURPOSE: 
+ STEPS:
+ EXPECTED RESULT:
