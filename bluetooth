@@ -1,0 +1,54 @@
+id: C39
+category_id: bt/HID
+_preconditions:
+     1. You must have a Bluetooth HID device on hand. These are Bluetooth keyboards and mice that do not use a wireless dongle.
+_description: 
+ PURPOSE: 
+     Connect and pair a BT HID device
+ STEPS:
+     1. From the taskbar, enable Bluetooth
+     2. Use a BT keyboard/mouse/HID without a dongle
+     3. Make sure the BT HID device has power and BT is turned on
+     4. Select the keyboard from the test device and follow the prompts to pair
+ EXPECTED RESULT:
+     The Bluetooth HID device should connect to the laptop without issue
+     
+id: C40
+category_id: bt/obex
+_preconitions:
+     1. Two Bluetooth enabled devices capable of sharing files other than media (Audio/Video)
+     2. A small text file created for testing, less than 1MB is recommended
+_description: 
+ PURPOSE: 
+     OBEX protocol testing
+ STEPS:
+     1. Find a Bluetooth enabled destination device
+     2. Pair the host laptop and the destination device
+     3. Select or create a small text file to share between the devices
+     4. Send the file to the destination device 
+     5. Send that file back to the host
+ EXPECTED RESULT:
+     The text file should be able to go between the two devices without issue.
+
+id: C37
+category_id: bt/scan
+_description: 
+ PURPOSE: 
+     Check to see if the device can be found by other BT devices
+ STEPS:
+     1. From the taskbar, enable Bluetooth
+     2. Make sure the computer is visible from the BT settings menu
+     3. On a second BT enabled computer, look for the test laptop
+ EXPECTED RESULT:
+
+id: C38
+category_id: bt/pair
+_description: 
+ PURPOSE: 
+     	Attempt to scan and pair with other BT devices
+ STEPS:
+     1. From the taskbar, enable Bluetooth
+     2. Use a device that supports file sharing like a mobile phone
+     3. Have BT enabled on both devices and select the phone from the test device
+     4. Go through pairing instructions
+ EXPECTED RESULT:
