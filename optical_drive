@@ -1,0 +1,21 @@
+id: C21
+category_id: optical/cdrom
+_description: 
+ PURPOSE: 
+     CD discs can be read - Data Only
+ STEPS:
+     1. Insert a Non-Blank CD Disc into CD-Rom
+     2. Launch Documents and check system can read this cd disc
+ EXPECTED RESULT:
+     CD discs can be read
+     
+id: C22
+category_id: optical/dvdrom
+_description: 
+ PURPOSE: 
+     DVD discs can be read - Data Only
+ STEPS:
+     1. Insert a Non-Blank DVD Disc into DVD-Rom
+     2. Launch Documents and check system can read this dvd disc
+ EXPECTED RESULT:
+     DVD discs can be read
