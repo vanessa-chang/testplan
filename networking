@@ -1,0 +1,20 @@
+id: C35
+category_id: networking/wireless
+_description: 
+ PURPOSE: 
+     The device can wirelessly connect to a good known network
+ STEPS:
+     1. From the desktop click on the WiFi button on the taskbar
+     2. Type the correct credentials in to join said network
+ EXPECTED RESULT:
+     
+id: C36
+category_id: networking/ethernet
+_description: 
+ PURPOSE: 
+     The device can connect to a good known network via ethernet
+ STEPS:
+     1. Plug an ethernet cable into the device
+     2. Attempt to browse the internet to test the connection (or use ping command from terminal)
+ EXPECTED RESULT:
+     The device should be able to establish a connection via ethernet
