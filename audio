@@ -1,0 +1,78 @@
+############################
+## Audio Input Test Cases ##
+############################
+id: C41
+Category_id: audio/input/internal_mic
+_description: 
+ PURPOSE: 
+     Built in microphone works
+ STEPS:
+     1. From the desktop type "Record audio"
+     2. Launch the audio recorder (Audacity)
+     3. Click record and look then playback the recording to confirm the microphone works
+ EXPECTED RESULT:
+     Audio must be properly recorded at a reasonable volume and without distortion.
+
+id: C42
+category_id: audio/input/external_mic
+_description: 
+ PURPOSE: 
+     	Inline 3.5mm microphone works
+ STEPS:
+     1. Have a 3 pin headphone set with an inline mic
+     2. Plug the headphones into the test device
+     3. Proceed with the steps above
+ EXPECTED RESULT:
+     Audio must be properly recorded without any distortion from 1% to 100%
+
+#############################
+## Audio Output Test Cases ##
+#############################
+id: C43
+Category_id: audio/output/external_playback
+_description: 
+ PURPOSE: 
+     3.5mm output works
+ STEPS:
+     1. Plug a 3.5mm audio device into the test device
+     2. Find media with sound or click on the volume bar in the
+     3. Listen for audio playback
+ EXPECTED RESULT:
+ 
+id: C44
+Category_id: audio/output/internal_playback
+_description: 
+ PURPOSE: 
+     Integrated speakers work
+ STEPS:
+     1. Find media with sound or click on the volume bar without any other audio devices plugged in
+     2. Listen for audio playback from devices speakers
+ EXPECTED RESULT:
+ 
+id: C45
+category_id: audio/output/hdmi
+_description: 
+ PURPOSE: 
+     HDMI audio works
+ STEPS:
+     1. Plug in a HDMI enabled monitor with audio support
+     2. Unplug any other audio device
+     3. The HDMI monitor should be auto detected as the new main audio device
+     4. Find media with sound or click on the volume bar
+     5. Listen for audio playback
+ EXPECTED RESULT:
+     The Audio sound should be playback normally
+ 
+id: C46
+category_id: audio/output/DP
+_description: 
+ PURPOSE: 
+     DisplayPort audio works
+ STEPS:
+     1. Plug in a DisplayPort enabled monitor with audio support
+     2. Unplug any other audio device
+     3. The DisplayPort monitor should be auto detected as the new main audio device
+     4. Find media with sound or click on the volume bar
+     5. Listen for audio playback
+ EXPECTED RESULT:
+     The Audio sound should be playback normally
