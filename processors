@@ -1,0 +1,18 @@
+id: C16
+category_id: cpu/performance
+_description: 
+ PURPOSE: 
+     CPU performance is relative to the model/type/frequency 
+ STEPS:
+     1. Use the computer, an i7 should be snappy and quick, a Celeron less so
+     
+id: C15
+category_id: cpu/info
+_description: 
+ PURPOSE: 
+     CPU is the correct type, model and frequency
+ STEPS:
+     1. From the desktop navigate to settings
+     2. Click on details
+ EXPECTED RESULT:
+     The processor should be the same model as the specs stated by the manufacture for that specific model.
