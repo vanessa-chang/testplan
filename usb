@@ -1,0 +1,92 @@
+id: C23
+category_id: usb/info
+_description: 
+ PURPOSE: 
+     Check that USB ports match their spec
+ STEPS:
+     1. From the desktop type "terminal" into the serach bar
+     2. Launch terminal
+     3. Type lsusb into the terminal window and hit enter
+     4. Check each USB port that matches the spec
+ EXPECTED RESULT:
+     Verify USB ports match their spec
+     
+id: C24
+category_id: usb/hid
+_description: 
+ PURPOSE: 
+     Check a basic input device works on all USB ports
+ STEPS:
+     1. Plug a keyboard or mouse into each of the USB ports
+     2. Check USB keyboard and mouse can work correctly
+ EXPECTED RESULT:
+     USB keyboard or mouse should work on each USB port
+     
+id: C25
+category_id: usb/usb2.0
+_description: 
+ PURPOSE: 
+     System can recognize USB 2.0 drives and able to access said drive by copying/delete file
+ STEPS:
+     1. Insert a USB 2.0 Stick to an USB port
+     2. Copy file to this USB 2.0 Stick
+     3. Delete file from this USB 2.0 Stick
+     4. Repeat step1~3 and try each USB port
+ EXPECTED RESULT:
+     The processor should be the same model as the specs stated by the manufacture for that specific model.
+
+id: C26
+category_id: usb/usb3.0
+_preconditions:
+     1. A USB 3.0 Stick
+_description: 
+ PURPOSE: 
+     USB 3.0: System can recognize USB 3.0 drives and able to access said drive by copying/delete file
+ STEPS:
+     1. Insert a USB 3.0 Stick to an USB port
+     2. Copy file to this USB 3.0 Stick
+     3. Delete file from this USB 3.0 Stick
+     4. Repeat step1~3 and try each USB port
+ EXPECTED RESULT:
+     Ensure that USB 3.0 stick can be recognized and work correctly with each USB port
+
+id: C27
+category_id: usb/usb-c
+_preconditions:
+     1. Prepare an USB-C Stick
+_description: 
+ PURPOSE: 
+     CPU is the correct type, model and frequency
+ STEPS:
+     1. Insert a USB-C Stick to an USB-C port
+     2. Copy file to this USB-C Stick
+     3. Delete file from this USB-C Stick
+     4. Repeat step1~3 and try each USB-C port
+ EXPECTED RESULT:
+     Ensure that USB-C flash drive can be recognized and work correctly with each USB-C port
+
+id: C430
+category_id: usb/usb-c_video
+_preconditions:
+     Prepare a USB-C to HDMI/DP cable
+_description: 
+ PURPOSE: 
+     USB-C: Check USB-C can output Video to external monitor
+ STEPS:
+     1. Connect USB-C to HDMI/DP cable to USB-C port
+     2. Press FN+F5 to switch display mode
+ EXPECTED RESULT:
+     Ensure that USB-C can output video to external mode and each display mode can work normally
+
+id: C431
+category_id: usb/usb-c_audio
+_preconditions:
+     Prepare a USB-C to HDMI/DP cable
+_description: 
+ PURPOSE: 
+     USB-C: Check USB-C can output Audio to external monitor
+ STEPS:
+     1. Connect USB-C to HDMI/DP cable to USB-C port
+     2. Play a music file
+ EXPECTED RESULT:
+     Ensure that USB-C can output Audio to external monitor correctly
