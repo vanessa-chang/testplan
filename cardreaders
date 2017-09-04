@@ -1,0 +1,14 @@
+id: C20
+category_id: cardreaders/read-write
+_description: 
+ PURPOSE: 
+     Read write speed matches SD card class
+ STEPS:
+     1. Insert SD Card
+     2. From the desktop type "disks" into the search bar
+     3. Select the SD Card to benchmeark
+     4. From the drop down menu in the upper right hand corner select "benchmark"
+     5. Select "Start Benchmark"
+     6. Check the result that match to the class spec of this SD card
+ EXPECTED RESULT:
+     
