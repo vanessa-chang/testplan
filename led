@@ -1,0 +1,101 @@
+id: C55
+category_id: led/battery
+_description: 
+ PURPOSE: 
+     Battery LED works
+ STEPS:
+     1. Plugin AC adapter
+     2. Check battery LED status
+ EXPECTED RESULT:
+     Battery LED should be light up
+     
+id: C56
+category_id: led/power_suspend
+_description: 
+ PURPOSE: 
+     Power LED blinks on suspend
+ STEPS:
+     1. Suspend system
+     2. Check Power LED
+ EXPECTED RESULT:
+     Power LED blinks on suspend
+     
+id: C57
+category_id: led/power_ac
+_description: 
+ PURPOSE: 
+     Power LED changes when power supply is plugged in
+ STEPS:
+     1. Plug Power cable into device
+     2. Check Power LED
+ EXPECTED RESULT:
+     Power LED changes when power supply is plugged in
+
+id: C58
+category_id: led/wlan
+_description: 
+ PURPOSE: 
+     WLAN LED works
+ STEPS:
+     1. WLAN LED should light on when Wifi is turned on
+     2. WLAN LED should be off or change color when disable Wifi
+ EXPECTED RESULT:
+
+id: C59
+category_id: led/wlan_transfer
+_preconditions:
+Note: I think this case is too specific. I believe that this case and the one above it about the WLAN LED should be condensed into one case.
+_description: 
+ PURPOSE: 
+     WiFi activity and Bluetooth activity LEDs blink when data is transferring
+ STEPS:
+     1. Launch a browser
+     2. Visit youtube and play a video
+     3. Check WLAN LED
+ EXPECTED RESULT:
+ 
+id: C60
+category_id: led/camera
+_description: 
+ PURPOSE: 
+     WLAN LED works
+ STEPS:
+     1. Launch Cheese
+     2. Check Camera LED
+ EXPECTED RESULT:
+     Camera LED turns on when camera is on
+
+id: C61
+category_id: led/caps_numlock
+_description: 
+ PURPOSE: 
+     Caps and Num Lock LEDs toggle with the keys being clicked
+ STEPS:
+     1. Press Caps key
+     2. Press Num Lock key
+     3. Typing on search bar
+ EXPECTED RESULT:
+     Caps and Num Lock LEDs toggle with the keys being clicked
+ 
+id: C62
+category_id: led/storage
+_description: 
+ PURPOSE: 
+     Storage activity LED represents storage activity on drive
+ STEPS:
+     1. Copy and paste a large file to a different folder
+     2. Check Storage LED should shinning
+ EXPECTED RESULT:
+
+id: C63
+category_id: led/airplane
+_description: 
+ PURPOSE: 
+     Airplane mode LED is turned on when airplane mode is activated
+ STEPS:
+     1. Press function key to turn on Airplane mode
+     2. Airplane mode LED should be on
+     3. Turn off Airplane mode then LED should be off
+ EXPECTED RESULT:
+     Airplane mode is turned on when airplane mode on device is activated
+     
