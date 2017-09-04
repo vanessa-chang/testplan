@@ -1,0 +1,24 @@
+id: C18
+category_id: disk/info
+_description: 
+ PURPOSE: 
+     Check the read and write speed match drive specs
+ STEPS:
+     1. From the desktop type "disks" into the search bar
+     2. Select the disk to benchmark
+     3. From the drop down menu in the upper right hand corner select "benchmark"
+     4. Select "Start Benchmark"
+     5. Leave all values at their defaults and click "Start Benchmarking"
+ EXPECTED RESULT:
+     Ensure that benchmark results are match the spec
+
+id: C19
+category_id: disk/smart
+_description: 
+ PURPOSE:
+     SMART short test
+ STEPS:
+     1. From the desktop type "disks" into the search bar
+     2. Launch disks
+     3. Perform SMART test from top right corner
+ 
